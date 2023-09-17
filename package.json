@@ -1,0 +1,37 @@
+{
+  "name": "api-producto",
+  "version": "1.0.0",
+  "description": "Api rest que administrará la información de productos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-babel index.js",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [
+    "mongoose",
+    "express",
+    "nodemon",
+    "body-parse",
+    "path"
+  ],
+  "author": "EliazerHdz",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-promise-router": "^4.1.1",
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
